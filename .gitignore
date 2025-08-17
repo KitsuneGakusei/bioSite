@@ -1,12 +1,15 @@
-
 # Ignore local SDKs and archives
 CSD-420/openjfx-24.0.2_windows-x64_bin-sdk/
 **/javafx-sdk-*/
 **/*.zip
+**/*.dll
+**/*.msi
+**/*.exe
 out/
 bin/
 .classpath
 .project
 .settings/
-# (Optional) ignore the other course folder if you don't want to commit it here
+**/.vscode/
+# (Optional) ignore the other course folder
 CSD-402/
